@@ -1,0 +1,56 @@
+.intro{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.intro h2{
+  font-size: 25px;
+    text-shadow: 0 0 10px rgba(8, 8, 8, 0.8), 0 0 3px rgba(14, 14, 14, 0.8), 0 0 5px rgba(85, 35, 35, 0.8);
+    animation: colorChange 6s infinite;
+    color: rgb(235, 198, 198);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+} 
+
+@keyframes colorChange {
+    10% { color: rgb(255, 255, 255); }
+    35% { color: rgb(228, 151, 151); }
+    60% { color: rgb(150, 9, 9); }
+    80% { color: rgb(207, 58, 58); }
+    100% { color: rgb(233, 179, 179); }
+  }
+
+
+  /* Light Mode */
+
+  .dark .intro h2{
+    animation: mudancaDeCor 6s infinite;
+    text-shadow: 0 0 0px rgba(8, 8, 8, 0.8), 0 0 0px rgba(14, 14, 14, 0.8), 0 0 0px rgba(85, 35, 35, 0.8);
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+  } 
+
+  @keyframes mudancaDeCor {
+    10% { color: rgb(5, 16, 39); }
+    35% { color: rgb(47, 69, 146); }
+    60% { color: rgb(34, 59, 139); }
+    80% { color: rgb(16, 43, 131); }
+    100% { color: rgb(0, 4, 51); }
+  }
+
+  @media (max-width: 768px) {
+    .intro {
+        margin-left: 2%;
+        margin-bottom: 3%;
+    }
+
+    .intro h2 {
+        font-size: 18px;
+    }
+}
+  
+
+
+  

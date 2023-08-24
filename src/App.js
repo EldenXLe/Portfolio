@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Cabecario from './componentes/Cabecario/Cabecario.js';
+import Intro from './componentes/intro/intro.js';
+import Tecno from './componentes/Tecnologias/tecno.js';
+import Descricao from './componentes/Descricao/descricao.js';
+import DarkMode from './componentes/DarkMode/darkMode.js';
+import Projetos from './componentes/Projetos/projetos.js';
+
+import { useState } from 'react';
 
 function App() {
+  const [alterarDarkMode, setAlterarDarkMode] = useState(false);
+
+  const darkModeAtivado = () => {
+    setAlterarDarkMode(!alterarDarkMode);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`app ${alterarDarkMode ? 'dark' : ''}`}>
+      <Cabecario alterarDarkMode={alterarDarkMode}/>
+      <Intro alterarDarkMode={alterarDarkMode}/>
+      <Tecno alterarDarkMode={alterarDarkMode}/>
+      <Descricao alterarDarkMode={alterarDarkMode}/>
+      <DarkMode alterarDarkMode={alterarDarkMode} darkModeAtivado={darkModeAtivado}/>
+      <Projetos alterarDarkMode={alterarDarkMode}/>
     </div>
   );
 }

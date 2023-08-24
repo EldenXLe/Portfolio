@@ -1,0 +1,36 @@
+.cabecario{
+    background-color: black;
+    border-bottom: 3px solid black;
+    padding: 3px;
+}
+.nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes a{
+    margin: 0 10px; 
+} 
+
+@media (max-width: 768px) {
+    .nome {
+        font-size: 18px;
+    }
+
+    .redes {
+        flex-direction: row; /* Voltar para uma linha em dispositivos maiores */
+        margin-top: 0; /* Redefinir o espaçamento em dispositivos maiores */
+    }
+}
+
+

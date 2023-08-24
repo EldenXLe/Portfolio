@@ -1,0 +1,80 @@
+.projetos {
+  border: black 3px groove;
+  width: 85%;
+  margin: 5% auto; /* Centralizar horizontalmente e adicionar margem vertical */
+  padding: 20px; /* Adicionar espaçamento interno */
+  background: linear-gradient(to bottom right, #181212, #290404f1);
+}
+
+.projetos h5 {
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+.projetos a {
+  text-decoration: none;
+  display: contents;
+}
+
+.projetos-itens {
+  background: linear-gradient(to bottom right, #1d1919, #300303f1);
+  width: 80%; 
+  margin-left: 9%;
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: black 5px 0px 25px;
+  overflow: hidden; 
+  display: flex; 
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  flex: 1; /* Distribuir espaço igualmente entre imagem e descrição */
+}
+
+.projetos-itens img {
+  width: 30%;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.descricao {
+  padding: 20px; /* Espaçamento interno */
+  padding-top: 0px;
+  margin-left: 1%;
+  margin-top: 0px;
+}
+
+.descricao h6 {
+  font-size: 1.4em;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.descricao p {
+  font-size: 1.2em;
+  color: white;
+  text-align: justify;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.projetos-itens:hover {
+  box-shadow: black 15px 0px 25px;
+  transform: scale(1.03);
+  transition: transform 0.8s;
+}
+
+
+.dark .projetos{
+  background: linear-gradient(to bottom right, #07070a, #516fd1);
+}
+
+
+.dark .projetos-itens{
+  background: linear-gradient(to bottom right, #b36a17, #0431c5);
+  
+}

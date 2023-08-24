@@ -1,0 +1,57 @@
+.tecno {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    right: 7%;
+    top: 50%;
+    text-align: center;
+    background: linear-gradient(to bottom right, #aa5006, #030683);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 1.5%;
+    box-shadow: black 0px 0px 20px;
+}
+
+.tecno h3 {
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.tecno-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.tecno-logos p {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+}
+
+/* Adicione regra de mídia para telas menores */
+@media (max-width: 768px) {
+    .tecno {
+        width: 45%;
+        margin-left: 32%;
+        position: relative;
+        padding: 3%;
+        padding-bottom: 8%;
+    }
+
+    .tecno-logos {
+        padding: 5px;
+    }
+
+    .logo {
+        font-size: 14;
+    }
+}

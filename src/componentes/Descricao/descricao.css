@@ -1,0 +1,52 @@
+.descricaoL{
+    margin-left: 6%;
+    margin-top: 4%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.descricaoL h4{
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.descricaoL p{
+    font-size:1.4em;
+    width: 60%;
+    font-weight: bold;
+    color: white;
+}
+
+.descricaoL h4, .descricaoL p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+/* DarkMode */
+
+.dark .descricaoL p{
+    color: rgb(0, 0, 0);
+}
+
+.dark .descricaoL h4{
+    color: rgb(0, 0, 0);
+}
+
+
+/* Adicione regra de mídia para telas menores */
+@media (max-width: 768px) {
+    .descricaoL {
+        margin-left: 8.5%; /* Reduz a margem para telas menores */
+    }
+    
+    .descricaoL h4 {
+        font-size: 1.2em; /* Reduz o tamanho da fonte para telas menores */
+        text-align: center;
+    }
+
+    .descricaoL p {
+        font-size: 1.1em; /* Reduz o tamanho da fonte para telas menores */
+        width: 90%; /* Ajusta a largura para telas menores */
+    }
+}
