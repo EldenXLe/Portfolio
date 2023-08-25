@@ -65,3 +65,14 @@
         top: 34%;
     }
 }
+
+@media (width:912px) {
+    .tecno {
+        width: 20%;
+        margin-left: 32%;
+        padding: 3%;
+        padding-bottom: 8%;
+        top: 27%;
+    }
+}
+

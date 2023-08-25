@@ -22,7 +22,7 @@
   width: 80%; 
   margin-left: 9%;
   border-radius: 15px;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   box-shadow: black 5px 0px 25px;
   overflow: hidden; 
   display: flex; 
@@ -138,4 +138,32 @@
     margin-bottom: 2%;
   }
 
+}
+
+@media (width: 912px) {
+  .projetos-itens img {
+    width: 100%; 
+  }
+
+  .projetos-itens {
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .descricao {
+    margin-left: 0;
+  }
+
+  .descricao h6 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .conteudo {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+  }
 }
