@@ -37,7 +37,7 @@
 /* Adicione regra de mídia para telas menores */
 @media (max-width: 768px) {
     .descricaoL {
-        margin-left: 8.5%; /* Reduz a margem para telas menores */
+        margin-left: 8%; /* Reduz a margem para telas menores */
     }
     
     .descricaoL h4 {
@@ -47,6 +47,6 @@
 
     .descricaoL p {
         font-size: 1.1em; /* Reduz o tamanho da fonte para telas menores */
-        width: 90%; /* Ajusta a largura para telas menores */
+        width: 94%; /* Ajusta a largura para telas menores */
     }
 }
