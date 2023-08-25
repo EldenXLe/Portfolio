@@ -19,7 +19,7 @@
 
 .projetos-itens {
   background: linear-gradient(to bottom right, #1d1919, #300303f1);
-  width: 80%; 
+  width: 78%; 
   margin-left: 9%;
   border-radius: 15px;
   margin-bottom: 4%;
@@ -35,7 +35,7 @@
 }
 
 .projetos-itens img {
-  width: 30%;
+  width: 33%;
   border-radius: 15px 0px 0px 15px;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .descricao h6 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: white;
   text-align: center;
   width: 100%;
@@ -55,7 +55,7 @@
 }
 
 .descricao p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: white;
   text-align: justify;
   width: 100%;
