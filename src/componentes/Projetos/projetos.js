@@ -51,6 +51,21 @@ function Projetos() {
       </div>
       </a>
 
+      <a href='https://wallpapergallery.netlify.app' target='_blank' rel='noopener noreferrer'>
+      <div className='projetos-itens'>
+        <div className="conteudo">
+              <img src={'./wallpapergallery.png'} alt="Projeto 3" />
+
+              <div className="descricao">
+                <h6>Wallpaper Gallery</h6>
+                <p>Wallpaper Gallery é um site que exibe imagens e conta com um filtro para filtrar as categorias das imagens.<br/><br/>
+                  Tecnologias utilizadas: HTML, CSS e JavaScript.
+                </p>
+              </div>
+            </div>
+      </div>
+      </a>
+
     </div>
   )
 }
